@@ -1,0 +1,9 @@
+//Contruindo xUnit test, investimento em confiabilidade  e durabilidade de produtos de software
+xUnit.net, pois um produto testado é, certamente, de melhor qualidade
+Neste artigo, demonstraremos como construir e performar seus primeiros testes unitários automatizados, utilizando, para tanto, a ferramenta construída para o .NET Framework, gratuita e de código aberto xUnit. 
+Testes Unitários(Unit tests), o que são?
+//
+Por que testar?
+É fácil inferir que um produto bem testado é, no mais das vezes, um produto de melhor qualidade em relação aquele que não. No desenvolvimento de software não é diferente. 
+Só testes podem prevenir que problemas não previstos durante o desenvolvimento de determinado produto perdurem e, no futuro, venham a causar dor de cabeça durante os testes de integração, por conta de custos com correção ou mesmo prejuízos no momento da utilização do mesmo em produção, elevando nestas situações os custos de .
+Um código unitáriamente testado faz o processo de desenvolvimento, refatoração e escalonamento algo mais ágio, porquê evitam longas sessões de depuração(debug), visto que o desenvolvedor pode executar os testes e, com  ajuda dos mesmos, encontrar de imediato a(s) parte(s) do sistema que por ventura tenham deixado de funcionar em razão de alguma alteração.
