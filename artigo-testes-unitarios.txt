@@ -1,14 +1,14 @@
-xUnit.net, pois um produto testado é, certamente, de melhor qualidade
-Neste artigo, demonstraremos como construir e performar seus primeiros testes unitários automatizados, utilizando, para tanto, a ferramenta construída para o .NET Framework, gratuita e de código aberto xUnit. 
-Testes Unitários(Unit tests), o que são?
-//
+xUnit.net. Um produto testado é, certamente, de melhor qualidade
+resumo:
+Neste artigo, demonstraremos como construir e performar seus primeiros testes unitários automatizados em .NET Core utilizando, para tanto, a ferramenta xUnit. 
+xUnit e testes unitários(Unit tests), o que são?
+De acordo com a documentação(link), xUnit é uma ferramenta gratuita e de código aberto construída para o .NET Framework. 
+Ela serve para auxiliar na construção e execução de testes unitários que, no que lhe concerne, são trechos de códigos construídos para testar partes específicas de determinado sistema. Geralmente executados em partes separadas da aplicação, a organização dos testes podem variar de acordo com o tipo de linguagem de programação ou o tipo de software.
 Por que testar?
-É fácil inferir que um produto bem testado é, no mais das vezes, um produto de melhor qualidade em relação aquele que não. No desenvolvimento de software não é diferente. 
-Já dizia minha avó: Problemas resolvidos no início são mais fáceis de resolver.(pode ser melhorado)
-Só testes podem prevenir que problemas não previstos durante o desenvolvimento de determinado produto perdurem e, no futuro, venham a causar dor de cabeça durante os testes de integração, ou mesmo prejuízos no momento da utilização em produção, elevando, nestas situações os custos de manutenção. 
-Testes Unitários não é tempo gasto, é investido.
-Um código unitariamente testado faz o processo de desenvolvimento, refatoração e escalonamento algo mais ágio(e até mesmo desejável). Um dos motivos é porquê evitam longas sessões de depuração(debug), dado que o desenvolvedor pode executar os testes e, com ajuda dos mesmos, encontrar de imediato a(s) parte(s) do sistema que por ventura tenham deixado de funcionar em razão de alguma alteração. 
-Qual desenvolvedor nunca deixou de refatorar um código, adicionar uma nova funcionalidade ou, até mesmo, atualizar uma biblioteca/dependência por não poder garantir, no futuro, a integridade de alguma aplicação?
+É fácil inferir que um produto bem testado é, certamente, um produto de melhor qualidade em relação aquele que não. Por que um software seria diferente?
+Problemas resolvidos no início são mais fáceis de resolver
+Testes unitários podem antecipar problemas não previstos durante o desenvolvimento de determinado produto impedindo que perdurem e, no futuro, venham a causar dor de cabeça durante os testes de integração, ou mesmo prejuízos no momento da utilização em produção elevando, nestas situações, os custos de manutenção. 
+Desenvolver testes unitários não é tempo gasto, é investido
+Além da possibilidade de guiar o desenvolvimento, testes unitários tornam o processo de desenvolvimento, refatoração e escalonamento algo mais ágil(e até mesmo desejável). Um dos motivos é porque evitam longas sessões de depuração(debug), dado que o desenvolvedor pode executar os testes e, com ajuda dos mesmos, encontrar de imediato a(s) parte(s) do sistema que, por ventura, tenham deixado de funcionar em razão de alguma alteração. Qual desenvolvedor nunca deixou de refatorar um código, adicionar uma nova funcionalidade ou, até mesmo, atualizar uma biblioteca/dependência por não poder garantir, no futuro, a integridade de alguma aplicação?
 Mais motivos para testar
 Você pode encontrar no nosso blog(link) um artigo de um dos nossos diretores demonstrando como a automação de testes evita prejuízos no sistema financeiro(link).
-
